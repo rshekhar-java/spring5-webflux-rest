@@ -8,16 +8,19 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 /**
- * created by rs 2/26/2022.
+ * created by rs 2/27/2022.
  */
 @Data
 @Document
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class Category {
+public class Vendor {
+
     @Id
     private String id;
 
-    private String description;
+    private String firstname;
+    private String lastname;
+
 }
