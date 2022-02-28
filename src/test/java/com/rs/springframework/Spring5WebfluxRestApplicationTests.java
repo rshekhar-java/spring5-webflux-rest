@@ -12,5 +12,7 @@ public class Spring5WebfluxRestApplicationTests {
 /*    @Test
     public void contextLoads() {
     }*/
+    @Test
+    public void tetsRun(){}
 
 }
