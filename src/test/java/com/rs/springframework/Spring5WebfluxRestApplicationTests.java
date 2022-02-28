@@ -9,8 +9,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class Spring5WebfluxRestApplicationTests {
 
-    @Test
-    public void contextLoad() {
-    }
+/*    @Test
+    public void contextLoads() {
+    }*/
 
 }
