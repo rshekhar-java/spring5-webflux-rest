@@ -49,7 +49,7 @@ jobs:
 
       # run tests!
 #      - run: gradle test
-      - run: ./gradlew test
+#      - run: ./gradlew test
 
       # run tests! and gen code coverage
       - run: ./gradlew clean test jacocoTestReport
