@@ -42,13 +42,15 @@ jobs:
             - ~/.gradle
           key: v1-dependencies-{{ checksum "build.gradle" }}
 
-      # run tests!
-#      - run: gradle test
-      - run: ./gradlew test
       # setting permission for ./gradlew
       - run:
           name: chmod permissions
           command: chmod +x ./gradlew
+
+      # run tests!
+#      - run: gradle test
+      - run: ./gradlew test
+
       # run tests! and gen code coverage
       - run: ./gradlew clean test jacocoTestReport
 
