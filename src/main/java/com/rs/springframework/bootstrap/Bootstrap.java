@@ -45,33 +45,33 @@ public class Bootstrap implements CommandLineRunner {
             System.out.println("Loaded Categories : "+categoryRepository.count().block());
 
             vendorRepository.save(Vendor.builder()
-                    .firstname("Ravi")
-                    .lastname("Shekhar")
+                    .firstName("Ravi")
+                    .lastName("Shekhar")
                     .build()).block();
 
             vendorRepository.save(Vendor.builder()
-                    .firstname("Michael")
-                    .lastname("Weston")
+                    .firstName("Michael")
+                    .lastName("Weston")
                     .build()).block();
 
             vendorRepository.save(Vendor.builder()
-                    .firstname("Rupesh")
-                    .lastname("Kumar")
+                    .firstName("Rupesh")
+                    .lastName("Kumar")
                     .build()).block();
 
             vendorRepository.save(Vendor.builder()
-                    .firstname("Mahesh")
-                    .lastname("Shaw")
+                    .firstName("Mahesh")
+                    .lastName("Shaw")
                     .build()).block();
 
             vendorRepository.save(Vendor.builder()
-                    .firstname("Ariff")
-                    .lastname("Md")
+                    .firstName("Ariff")
+                    .lastName("Md")
                     .build()).block();
 
             vendorRepository.save(Vendor.builder()
-                    .firstname("Ryan")
-                    .lastname("Wolf")
+                    .firstName("Ryan")
+                    .lastName("Wolf")
                     .build()).block();
 
             System.out.println("Loaded Vendors : "+vendorRepository.count().block());
